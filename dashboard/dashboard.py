@@ -32,7 +32,7 @@ with st.sidebar:
     
 
 # LOADING DATA
-day_df = pd.read_csv("../data/day.csv")
+day_df = pd.read_csv("/data/day.csv")
 # END LOADING DATA
 # SHOW DATA GROUP BY SEASON
 st.markdown("Jumlah penyewaan sepeda yang dikelompokan oleh season")
@@ -54,7 +54,7 @@ st.pyplot(fig)
 # END SHOW BARCHART
 
 # LOADING DATA
-hour_df = pd.read_csv("../data/hour.csv")
+hour_df = pd.read_csv("/data/hour.csv")
 # END LOADING DATA
 
 st.markdown("Perbandingan rata-rata jam peminjaman sepeda yang dilakukan di hari libur dan bukan hari libur")
